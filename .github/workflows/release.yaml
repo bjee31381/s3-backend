@@ -15,5 +15,5 @@ jobs:
       - name: release
         run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.UBUNTU_KEY}}
           
